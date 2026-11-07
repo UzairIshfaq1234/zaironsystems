@@ -1,0 +1,17 @@
+{
+    "filters": [
+        { "value": "all", "label": "All work" },
+        { "value": "ai", "label": "AI & Vision" },
+        { "value": "automation", "label": "Automation" },
+        { "value": "web", "label": "Web" },
+        { "value": "mobile", "label": "Mobile" },
+        { "value": "data", "label": "Data" },
+        { "value": "devops", "label": "DevOps & Cloud" },
+        { "value": "security", "label": "Security" }
+    ],
+    "pageSize": 6,
+    "cases": [
+        { "client": "Pibert", "title": "Selected project", "outcome": "Software engineering work delivered for Pibert.", "tags": ["Software Engineering"], "cats": [], "color": "#3A0D12", "url": "" },
+        { "client": "Infobotix Innovations", "title": "Selected project", "outcome": "Software engineering work delivered for Infobotix Innovations.", "tags": ["Software Engineering"], "cats": [], "color": "#2B0E1E", "url": "" }
+    ]
+}

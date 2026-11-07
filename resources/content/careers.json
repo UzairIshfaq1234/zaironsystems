@@ -1,0 +1,10 @@
+{
+    "perks": [
+        { "icon": "spark", "title": "Real ownership", "text": "Own features end to end, from idea to production." },
+        { "icon": "code", "title": "Modern stack", "text": "AI, cloud, automation and the tools you actually want to use." },
+        { "icon": "database", "title": "Learning budget", "text": "Courses, conferences and certifications, paid for." },
+        { "icon": "globe", "title": "Flexible work", "text": "Remote-friendly with flexible hours that fit your life." },
+        { "icon": "check-circle", "title": "Senior mentorship", "text": "Learn from engineers who have shipped at scale." },
+        { "icon": "refresh", "title": "Growth path", "text": "Clear levels, regular reviews and room to lead." }
+    ]
+}

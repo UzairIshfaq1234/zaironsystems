@@ -1,0 +1,56 @@
+{
+    "/": {
+        "title": "Software Development & AI Company · ZAIRON Systems",
+        "description": "ZAIRON Systems is a software development company building AI and computer vision, web and mobile apps, process automation, data pipelines, DevOps and cyber security.",
+        "schema": ["website", "faq:home"]
+    },
+    "/services": {
+        "title": "Software Development Services · ZAIRON Systems",
+        "description": "Custom software, web and app development, AI, automation, integrations, data, QA, DevOps and security, delivered by one senior team.",
+        "crumb": "Services",
+        "schema": ["services"]
+    },
+    "/work": {
+        "title": "Software Projects & Case Studies · ZAIRON Systems",
+        "description": "Software projects ZAIRON Systems has delivered for clients, including Pibert and Infobotix Innovations.",
+        "crumb": "Work"
+    },
+    "/about": {
+        "title": "About ZAIRON Systems · Ideas, To Reality",
+        "description": "Founded by Muhammad Uzair Ishfaq and Khadija Uzair, ZAIRON Systems turns ideas into dependable software, intelligent systems and secure infrastructure.",
+        "crumb": "About",
+        "schema": ["about"]
+    },
+    "/careers": {
+        "title": "Careers at ZAIRON Systems · Engineering Jobs",
+        "description": "Join a senior team building AI, automation and software that real businesses run on. See open roles in engineering, AI and design.",
+        "crumb": "Careers"
+    },
+    "/insights": {
+        "title": "Insights · Engineering Guides by ZAIRON Systems",
+        "description": "Practical articles on AI, automation, web, mobile, cloud and security from the engineers who build them.",
+        "crumb": "Insights",
+        "noindex": true
+    },
+    "/contact": {
+        "title": "Contact ZAIRON Systems · Start Your Project",
+        "description": "Tell us about your project and a senior engineer replies within one business day.",
+        "crumb": "Contact",
+        "schema": ["faq:contact"]
+    },
+    "/privacy": {
+        "title": "Privacy Policy · ZAIRON Systems",
+        "description": "How ZAIRON Systems collects, uses and protects the personal information you share through this website.",
+        "crumb": "Privacy Policy"
+    },
+    "/terms": {
+        "title": "Terms of Service · ZAIRON Systems",
+        "description": "The terms that apply when you use the ZAIRON Systems website and its contact forms.",
+        "crumb": "Terms of Service"
+    },
+    "404": {
+        "title": "Page not found · ZAIRON Systems",
+        "description": "The page you are looking for could not be found.",
+        "noindex": true
+    }
+}

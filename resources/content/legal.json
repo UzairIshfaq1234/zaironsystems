@@ -1,0 +1,107 @@
+{
+    "privacy": {
+        "eyebrow": "Legal",
+        "title": "Privacy Policy",
+        "updated": "October 14, 2026",
+        "intro": "This policy explains what personal information ZAIRON Systems collects through this website, why we collect it, and the choices you have. We keep it short and plain on purpose.",
+        "sections": [
+            {
+                "heading": "Information we collect",
+                "body": [
+                    "When you contact us or enroll in a service, we collect the details you choose to give us: your name, work email, company, phone number, the services you are interested in, your budget range, your project details and any file you attach.",
+                    "When you subscribe to our newsletter, we collect your email address.",
+                    "For security and abuse prevention, we record the IP address and browser type used to submit a form. We do not use advertising trackers or sell any data."
+                ]
+            },
+            {
+                "heading": "How we use it",
+                "body": [
+                    "To reply to your enquiry, prepare proposals and deliver the services you request.",
+                    "To send the newsletter you subscribed to. Every email includes a way to unsubscribe.",
+                    "To protect this website and our users from spam, fraud and attacks."
+                ]
+            },
+            {
+                "heading": "How we protect it",
+                "body": [
+                    "Data is sent over encrypted connections and stored on secured servers with restricted access. Files you upload are stored privately and are never publicly accessible.",
+                    "Only the people at ZAIRON Systems who need your information to help you can see it."
+                ]
+            },
+            {
+                "heading": "Sharing",
+                "body": [
+                    "We do not sell or rent your personal information. We share it only with service providers that help us run our business (such as email and hosting), under confidentiality obligations, or when the law requires it."
+                ]
+            },
+            {
+                "heading": "How long we keep it",
+                "body": [
+                    "We keep enquiry details for as long as needed to respond and, if we work together, for the duration of the engagement and any legal retention period. Newsletter emails are kept until you unsubscribe."
+                ]
+            },
+            {
+                "heading": "Your rights",
+                "body": [
+                    "You can ask us to access, correct, export or delete your personal information at any time. Email us and we will respond within 30 days."
+                ]
+            },
+            {
+                "heading": "Changes and contact",
+                "body": [
+                    "If we change this policy, we will update the date at the top of this page. Questions? Contact us at the email address below."
+                ]
+            }
+        ]
+    },
+    "terms": {
+        "eyebrow": "Legal",
+        "title": "Terms of Service",
+        "updated": "October 14, 2026",
+        "intro": "These terms apply to your use of the ZAIRON Systems website. Project work is governed by a separate written agreement signed before any engagement begins.",
+        "sections": [
+            {
+                "heading": "Using this website",
+                "body": [
+                    "You may browse this website and use its forms for genuine enquiries. Do not attempt to disrupt the site, probe it for vulnerabilities without written permission, or submit spam, malicious files or false information."
+                ]
+            },
+            {
+                "heading": "Content and intellectual property",
+                "body": [
+                    "The ZAIRON Systems name, logo, text and design of this website belong to ZAIRON Systems. You may share links to our pages, but please do not copy or reuse our content without permission."
+                ]
+            },
+            {
+                "heading": "Enquiries and proposals",
+                "body": [
+                    "Submitting a form or enrolling in a service is a request for a conversation, not a binding contract. Scope, price, timeline and ownership are agreed in writing before work starts. Unless agreed otherwise, all code and deliverables we create for you become your property once paid for."
+                ]
+            },
+            {
+                "heading": "Confidentiality",
+                "body": [
+                    "We treat the project information you share with us as confidential and are happy to sign a non-disclosure agreement before you share sensitive details."
+                ]
+            },
+            {
+                "heading": "No warranty on website content",
+                "body": [
+                    "We work hard to keep this website accurate, but its content is provided for general information and may change. It is not professional advice for your specific situation."
+                ]
+            },
+            {
+                "heading": "Limitation of liability",
+                "body": [
+                    "To the extent permitted by law, ZAIRON Systems is not liable for indirect or consequential losses arising from use of this website."
+                ]
+            },
+            {
+                "heading": "Changes and contact",
+                "body": [
+                    "We may update these terms from time to time; the date at the top shows the latest version. Questions? Contact us at the email address below."
+                ]
+            }
+        ]
+    }
+}

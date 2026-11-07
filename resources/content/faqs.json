@@ -1,0 +1,68 @@
+{
+    "home": [
+        { "q": "How much does a project cost?", "a": "Every project is different. After a short discovery call we send a fixed, itemised quote, so you know the full cost before any work starts." },
+        { "q": "How long does it take to build?", "a": "A focused MVP usually takes 6 to 12 weeks. Larger platforms are delivered in phases, with a working release every few weeks so you see progress early." },
+        { "q": "Do you work with startups and enterprises?", "a": "Yes. We help founders launch their first product and help established companies modernise, automate and secure the systems they already run." },
+        { "q": "Who owns the code and intellectual property?", "a": "You do. All code, designs and documentation are transferred to you, and we can sign an NDA before we start." },
+        { "q": "Do you offer support after launch?", "a": "Yes. We offer monitoring, maintenance, security updates and new features on a monthly retainer, or on demand." }
+    ],
+    "contact": [
+        { "q": "Do you sign an NDA?", "a": "Yes. We are happy to sign your NDA, or send ours, before you share any details." },
+        { "q": "Can we start small?", "a": "Absolutely. Many clients start with a paid discovery sprint or a small pilot before committing to a full build." }
+    ],
+    "software-engineering": [
+        { "q": "Can you work with our existing codebase?", "a": "Yes. We start with a short code audit, then improve and extend what you have instead of rewriting for the sake of it." },
+        { "q": "Which tech stack will you use?", "a": "The one that fits your problem and team. We often use Laravel, Node.js or Python with PostgreSQL, and we explain every choice." },
+        { "q": "Do we own the code?", "a": "Yes. Everything lives in your repository from day one, and all IP is transferred to you." }
+    ],
+    "web-development": [
+        { "q": "How long does a website take?", "a": "A marketing site usually takes 4 to 8 weeks. Web applications are scoped individually and delivered in phases." },
+        { "q": "Will we be able to edit the content ourselves?", "a": "Yes. We set up a CMS or admin panel and train your team, so updates never need a developer." },
+        { "q": "Do you help with SEO?", "a": "Yes. Technical SEO, page speed, structured data and analytics are part of every build." }
+    ],
+    "app-development": [
+        { "q": "Flutter, React Native or native?", "a": "For most products a cross-platform app is faster and cheaper. We recommend native only when performance or device features require it." },
+        { "q": "Do you handle App Store approval?", "a": "Yes. We prepare listings, screenshots and builds, and manage submission and review for both stores." },
+        { "q": "What happens after launch?", "a": "We monitor crashes and usage, fix issues quickly and ship improvements on a regular schedule." }
+    ],
+    "ai-computer-vision": [
+        { "q": "How much data do we need to start?", "a": "Often less than you think. We can start from a small labelled sample and grow the dataset as the system runs." },
+        { "q": "Can it run on our own servers?", "a": "Yes. We deploy to your cloud, your on-premise servers or edge devices, depending on your privacy and latency needs." },
+        { "q": "How do you measure accuracy?", "a": "We agree on target metrics with you up front, test on your real data, and monitor accuracy in production with alerts if it drifts." }
+    ],
+    "automation-engineering": [
+        { "q": "What can be automated?", "a": "Anything rule-based and repetitive: data entry, report downloads, portal submissions, reconciliations and notifications are common examples." },
+        { "q": "What if a website we automate changes?", "a": "Bots are monitored. If a run fails we are alerted, and fixes are covered by our support plans." },
+        { "q": "Is automation secure?", "a": "Yes. Credentials are stored encrypted, access is limited to what each bot needs, and every action is logged." }
+    ],
+    "mobile-automation": [
+        { "q": "Do you use emulators or real phones?", "a": "Both. Real devices give the most reliable results, and we use emulators where they are good enough to save cost." },
+        { "q": "How many devices can you run at once?", "a": "It scales with hardware. We design the orchestration so adding devices does not mean rewriting flows." },
+        { "q": "Can we see what the devices are doing?", "a": "Yes. The dashboard shows live status, and every run stores screenshots and logs." }
+    ],
+    "api-integration": [
+        { "q": "Can you integrate a tool without a public API?", "a": "Often, yes. We use exports, webhooks or carefully built automation when no API exists." },
+        { "q": "What happens when a partner API is down?", "a": "Requests are queued and retried automatically, and you are alerted if a problem persists." },
+        { "q": "Do you document the APIs you build?", "a": "Yes. Every API ships with OpenAPI documentation and example requests." }
+    ],
+    "data-engineering": [
+        { "q": "Is web data extraction legal?", "a": "We only collect publicly available data, respect site terms and robots rules, and follow data protection law." },
+        { "q": "How fresh will the data be?", "a": "As fresh as you need: from real-time streams to hourly or daily batches, depending on sources and cost." },
+        { "q": "Can you work with our existing database?", "a": "Yes. We can build on your current database or warehouse rather than replacing it." }
+    ],
+    "quality-engineering": [
+        { "q": "Can you test software you didn't build?", "a": "Yes. We regularly add test automation to existing products and teams." },
+        { "q": "Will tests slow down our releases?", "a": "No. Fast suites run on every change, and longer suites run in parallel or on a schedule." },
+        { "q": "Do you do manual testing too?", "a": "Yes, for exploratory and usability testing, alongside automation for everything repeatable." }
+    ],
+    "devops-cloud": [
+        { "q": "Can you migrate us to the cloud without downtime?", "a": "In most cases, yes. We plan migrations in stages with rollback options at every step." },
+        { "q": "Which cloud provider should we use?", "a": "It depends on your team, compliance needs and budget. We compare options honestly before recommending one." },
+        { "q": "Will DevOps lower our cloud bill?", "a": "Usually. Right-sizing, autoscaling and cleaning up unused resources often cut costs noticeably." }
+    ],
+    "cyber-security": [
+        { "q": "Is penetration testing safe for our live systems?", "a": "Yes. Testing is authorised in writing, scoped carefully and scheduled to avoid disruption." },
+        { "q": "What do we get at the end?", "a": "A clear report with risk ratings, evidence and fixes, plus a retest once fixes are in." },
+        { "q": "Can you help us meet compliance requirements?", "a": "Yes. We help put controls and evidence in place for standards like ISO 27001, SOC 2 and GDPR." }
+    ]
+}

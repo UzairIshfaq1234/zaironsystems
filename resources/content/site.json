@@ -1,0 +1,50 @@
+{
+    "name": "ZAIRON Systems",
+    "slogan": "Ideas, To Reality.",
+    "summary": "Ideas, To Reality. We design, build, automate and secure the systems your growth depends on.",
+    "email": "info@zaironsystems.com",
+    "responseTime": "Average response time: under 24 hours",
+    "founders": [
+        { "name": "Muhammad Uzair Ishfaq", "role": "Founder & CEO", "photo": "", "links": [{ "label": "LinkedIn", "url": "" }, { "label": "GitHub", "url": "" }] },
+        { "name": "Khadija Uzair", "role": "Co-Founder", "photo": "", "links": [{ "label": "LinkedIn", "url": "" }, { "label": "GitHub", "url": "" }] }
+    ],
+    "nav": [
+        { "label": "Services", "to": "/services" },
+        { "label": "Work", "to": "/work" },
+        { "label": "About", "to": "/about" },
+        { "label": "Careers", "to": "/careers" },
+        { "label": "Contact", "to": "/contact" }
+    ],
+    "footer": [
+        {
+            "title": "Company",
+            "links": [
+                { "label": "About", "to": "/about" },
+                { "label": "Work", "to": "/work" },
+                { "label": "Careers", "to": "/careers" },
+                { "label": "Contact", "to": "/contact" }
+            ]
+        },
+        {
+            "title": "Resources",
+            "links": [
+                { "label": "Case Studies", "to": "/work" },
+                { "label": "Process", "to": "/#process" },
+                { "label": "FAQ", "to": "/#faq" },
+                { "label": "Privacy Policy", "to": "/privacy" },
+                { "label": "Terms", "to": "/terms" }
+            ]
+        }
+    ],
+    "social": [
+        { "label": "LinkedIn", "url": "" },
+        { "label": "Instagram", "url": "" },
+        { "label": "GitHub", "url": "" },
+        { "label": "X", "url": "" }
+    ],
+    "privacyUrl": "/privacy",
+    "clients": [
+        { "name": "Pibert", "logo": "/brand/pibert-logo.svg", "url": "https://pibert.com" },
+        { "name": "Infobotix Innovations", "logo": "/brand/infobotix-logo.png", "url": "" }
+    ]
+}

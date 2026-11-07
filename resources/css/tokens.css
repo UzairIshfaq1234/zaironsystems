@@ -1,0 +1,67 @@
+/* =========================================================
+   ZAIRON Systems — Ideas, To Reality.
+   Design tokens (from the Figma file "ZAIRON Systems Website").
+   ========================================================= */
+:root {
+    /* Brand */
+    --maroon: #800000;
+    --maroon-deep: #5c0000;
+    --maroon-glow: #b3142c;
+    --blush: #f2d9d9;
+    --success: #3ddc84;
+    --danger: #d9475a;
+
+    /* Surfaces */
+    --night: #0b0808;
+    --night-2: #120c0c;
+
+    /* Text */
+    --text-high: #ffffff;
+    --text-mid: #c9bebe;
+    --text-low: #8f8282;
+    --text-accent: #f2b8b8;
+
+    /* Glass */
+    --glass: rgba(255, 255, 255, 0.05);
+    --glass-strong: rgba(255, 255, 255, 0.09);
+    --glass-stroke: rgba(255, 255, 255, 0.12);
+    --glass-stroke-strong: rgba(255, 255, 255, 0.22);
+    --blur: blur(24px) saturate(140%);
+
+    /* Radii */
+    --r-sm: 12px;
+    --r-md: 16px;
+    --r-lg: 24px;
+    --r-xl: 32px;
+    --r-pill: 999px;
+
+    /* Shadows */
+    --shadow-card: 0 24px 64px rgba(0, 0, 0, 0.45);
+    --shadow-glow: 0 12px 48px rgba(179, 20, 44, 0.45);
+
+    /* Type */
+    --font-head: 'Sora', system-ui, sans-serif;
+    --font-body: 'Manrope', system-ui, sans-serif;
+    --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+
+    /* Layout */
+    --container: 1280px;
+    --gutter: 80px;
+    --section: 120px;
+    --nav-h: 72px;
+
+    /* Motion & gradients */
+    --ease: cubic-bezier(0.22, 1, 0.36, 1);
+    --grad-text: linear-gradient(90deg, #ffffff 0%, #f2b8b8 45%, #d9475a 100%);
+    --grad-maroon: linear-gradient(135deg, #b3142c 0%, #4a0000 100%);
+}
+
+@media (max-width: 1279px) {
+    :root { --gutter: 48px; }
+}
+@media (max-width: 1023px) {
+    :root { --gutter: 40px; --section: 96px; }
+}
+@media (max-width: 767px) {
+    :root { --gutter: 20px; --section: 72px; --nav-h: 64px; }
+}

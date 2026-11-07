@@ -1,0 +1,13 @@
+{
+    "filters": [
+        { "value": "all", "label": "All" },
+        { "value": "ai", "label": "AI & Vision" },
+        { "value": "automation", "label": "Automation" },
+        { "value": "engineering", "label": "Engineering" },
+        { "value": "cloud", "label": "Cloud & DevOps" },
+        { "value": "security", "label": "Security" }
+    ],
+    "pageSize": 6,
+    "featured": null,
+    "posts": []
+}

@@ -1,0 +1,412 @@
+{
+    "formOptions": [
+        { "value": "software", "label": "Software" },
+        { "value": "web", "label": "Web" },
+        { "value": "app", "label": "App" },
+        { "value": "ai", "label": "AI & Vision" },
+        { "value": "automation", "label": "Automation" },
+        { "value": "integration", "label": "Integration" },
+        { "value": "data", "label": "Data" },
+        { "value": "qa", "label": "QA" },
+        { "value": "devops", "label": "DevOps" },
+        { "value": "security", "label": "Security" }
+    ],
+    "budgets": ["< $5k", "$5k – $15k", "$15k – $50k", "$50k+", "Not sure yet"],
+    "pillars": [
+        { "num": "01", "title": "Build", "text": "Products your customers love to use, engineered to scale.", "services": ["software-engineering", "web-development", "app-development"] },
+        { "num": "02", "title": "Intelligence", "text": "Turn images, documents and data into decisions.", "services": ["ai-computer-vision", "data-engineering"] },
+        { "num": "03", "title": "Automate", "text": "Hand repetitive work to software that never gets tired.", "services": ["automation-engineering", "mobile-automation", "api-integration"] },
+        { "num": "04", "title": "Run & Protect", "text": "Ship often, sleep well and stay secure.", "services": ["quality-engineering", "devops-cloud", "cyber-security"] }
+    ],
+    "items": [
+        { "slug": "software-engineering", "title": "Software Engineering", "icon": "code", "option": "software", "footer": "Software Engineering", "tagline": "Platforms, backends & internal tools", "text": "Custom platforms, backends and internal tools, built as one clean, scalable system." },
+        { "slug": "web-development", "title": "Web Development", "icon": "globe", "option": "web", "footer": "Web & App Development", "tagline": "Websites & web apps that convert", "text": "Fast, SEO-ready websites and web apps that look premium and convert." },
+        { "slug": "app-development", "title": "App Development", "icon": "smartphone", "option": "app", "tagline": "iOS & Android, prototype to launch", "text": "Native-quality iOS and Android apps, from first prototype to store launch." },
+        { "slug": "ai-computer-vision", "title": "AI & Computer Vision", "icon": "eye", "option": "ai", "footer": "AI & Computer Vision", "tagline": "Vision, OCR & LLM assistants", "text": "Models that read images, video and documents, and turn them into decisions." },
+        { "slug": "automation-engineering", "title": "Automation Engineering", "icon": "refresh", "option": "automation", "footer": "Automation Engineering", "tagline": "Bots & workflows that run themselves", "text": "Repetitive, high-volume work handed to software that runs on time, every time." },
+        { "slug": "mobile-automation", "title": "Mobile Automation", "icon": "phone-play", "option": "automation", "tagline": "Real-device Android orchestration", "text": "Android workflows orchestrated across real devices, with results you can see." },
+        { "slug": "api-integration", "title": "API & Platform Integration", "icon": "plug", "option": "integration", "tagline": "Payments, CRMs & partner APIs", "text": "Your tools, payments and partners connected so data flows on its own." },
+        { "slug": "data-engineering", "title": "Data Engineering & Extraction", "icon": "database", "option": "data", "footer": "Data Engineering & Extraction", "tagline": "Pipelines, extraction & dashboards", "text": "Scattered data collected, validated and shaped into pipelines you can trust." },
+        { "slug": "quality-engineering", "title": "Quality Engineering", "icon": "check-circle", "option": "qa", "tagline": "Test automation for every release", "text": "Automated testing that catches problems long before your customers do." },
+        { "slug": "devops-cloud", "title": "DevOps & Cloud", "icon": "cloud", "option": "devops", "footer": "DevOps & Cloud", "tagline": "CI/CD, containers & cloud", "text": "CI/CD, containers and cloud infrastructure that scale without drama." },
+        { "slug": "cyber-security", "title": "Cyber Security", "icon": "shield", "option": "security", "footer": "Cyber Security", "tagline": "Audits, pentests & hardening", "text": "Audits, hardening and monitoring to keep your systems and data safe." }
+    ],
+    "details": {
+        "software-engineering": {
+            "seo": {
+                "title": "Custom Software Engineering · ZAIRON Systems",
+                "description": "Custom platforms, backends, APIs and internal tools engineered for scale and security by a senior team. Get a fixed quote.",
+                "serviceType": "Custom software development",
+                "schemaDescription": "Custom platforms, SaaS products, backend APIs, internal tools and legacy modernisation."
+            },
+            "heading": "Custom software engineered to",
+            "highlight": "scale with you.",
+            "lead": "We design and build platforms, backends and internal tools as one clean, secure system, architected for today's users and next year's growth.",
+            "orbit": ["Laravel", "Node.js", "PostgreSQL", "Redis"],
+            "capabilitiesTitle": "Software that fits how your business really works.",
+            "capabilitiesLead": "From greenfield products to modernising the systems you already rely on.",
+            "capabilities": [
+                { "icon": "code", "title": "Custom platforms & SaaS", "text": "Multi-tenant products with billing, roles and admin built in." },
+                { "icon": "database", "title": "Backend & API development", "text": "Fast, documented APIs that web, mobile and partners can rely on." },
+                { "icon": "refresh", "title": "Legacy modernisation", "text": "Untangle old code and migrate it safely, without stopping the business." },
+                { "icon": "plug", "title": "Internal tools & dashboards", "text": "Admin panels, CRMs and workflows tailored to your team." },
+                { "icon": "shield", "title": "Secure architecture", "text": "Authentication, permissions and audit trails designed in from day one." },
+                { "icon": "cloud", "title": "Scalable infrastructure", "text": "Queues, caching and cloud setups that keep response times low under load." }
+            ],
+            "deliverables": ["Architecture and data model documentation", "Production-ready source code in your repository", "Automated test suite and CI pipeline", "Admin panel and role-based access", "Deployment to your cloud, with monitoring", "Handover session and technical docs"],
+            "idealFor": ["Founders launching a new product", "Teams outgrowing spreadsheets and manual tools", "Companies stuck on a fragile legacy system", "Businesses needing a reliable API for partners"],
+            "processTitle": "From blueprint to production.",
+            "process": [
+                { "title": "Discover", "text": "Goals, users and constraints mapped into a scoped plan." },
+                { "title": "Architect", "text": "Data model, APIs and infrastructure designed and reviewed." },
+                { "title": "Build", "text": "Weekly sprints with demos, code reviews and tests." },
+                { "title": "Launch", "text": "Secure release, monitoring and a clean handover." }
+            ],
+            "tools": ["Laravel", "PHP", "Node.js", "TypeScript", "Python", "Django", "PostgreSQL", "MySQL", "Redis", "Docker", "AWS", "GitHub Actions"],
+            "cta": { "title": "Have a system in mind?", "lead": "Tell us what it needs to do. We will map the architecture and send a fixed quote." }
+        },
+        "web-development": {
+            "seo": {
+                "title": "Web Development Services · ZAIRON Systems",
+                "description": "Fast, SEO-ready websites and web apps built with React, Next.js and Laravel. Premium design, measurable results.",
+                "serviceType": "Web development",
+                "schemaDescription": "Marketing websites, web applications, e-commerce, SEO and performance optimisation."
+            },
+            "heading": "Websites and web apps that",
+            "highlight": "load fast and convert.",
+            "lead": "Premium, SEO-ready websites and web applications built with modern frameworks, accessible by default and measured by real business results.",
+            "orbit": ["React", "Next.js", "Laravel", "SEO"],
+            "capabilitiesTitle": "Everything your web presence needs.",
+            "capabilitiesLead": "Marketing sites, customer portals and complex web apps, designed and engineered in one team.",
+            "capabilities": [
+                { "icon": "globe", "title": "Marketing websites", "text": "Fast, beautiful sites with a CMS your team can actually use." },
+                { "icon": "code", "title": "Web applications", "text": "Dashboards, portals and SaaS front ends built with React and Next.js." },
+                { "icon": "plug", "title": "E-commerce", "text": "Storefronts and checkouts integrated with payments, shipping and inventory." },
+                { "icon": "spark", "title": "SEO & performance", "text": "Core Web Vitals, structured data and technical SEO done properly." },
+                { "icon": "eye", "title": "UX/UI design", "text": "Research-led design systems that make every page feel consistent." },
+                { "icon": "shield", "title": "Accessibility & security", "text": "Accessible markup, hardened headers and secure forms by default." }
+            ],
+            "deliverables": ["UX flows and high-fidelity UI design", "Responsive build for every screen size", "CMS or admin to manage content", "Technical SEO, analytics and structured data", "Performance and accessibility audit before launch", "Hosting setup, SSL and monitoring"],
+            "idealFor": ["Brands that need a site matching their quality", "Startups launching a product or waitlist", "Companies whose site is slow or hard to update", "Teams needing a customer portal or web app"],
+            "processTitle": "From first sketch to launch day.",
+            "process": [
+                { "title": "Research", "text": "Audience, goals and competitors reviewed to shape the plan." },
+                { "title": "Design", "text": "Wireframes and UI designed, then validated with you." },
+                { "title": "Develop", "text": "Responsive build with CMS, SEO and analytics wired in." },
+                { "title": "Launch", "text": "Speed, accessibility and security checked before go-live." }
+            ],
+            "tools": ["React", "Next.js", "TypeScript", "Laravel", "Node.js", "Tailwind CSS", "Figma", "Vite", "Strapi", "Shopify", "Vercel", "Cloudflare"],
+            "cta": { "title": "Ready for a site that works as hard as you do?", "lead": "Share your current site or idea and we will send a plan, timeline and fixed quote." }
+        },
+        "app-development": {
+            "seo": {
+                "title": "Mobile App Development · ZAIRON Systems",
+                "description": "iOS and Android apps built with Flutter, React Native, Swift and Kotlin, from prototype to store launch.",
+                "serviceType": "Mobile app development",
+                "schemaDescription": "Cross-platform and native iOS and Android app development, backends and store release."
+            },
+            "heading": "Mobile apps your users",
+            "highlight": "open every day.",
+            "lead": "Native-quality iOS and Android apps, from first prototype to App Store launch, with the backend, analytics and updates handled too.",
+            "orbit": ["Flutter", "React Native", "Swift", "Kotlin"],
+            "capabilitiesTitle": "Apps built for real-world use.",
+            "capabilitiesLead": "Cross-platform or native, we pick the approach that fits your budget and product.",
+            "capabilities": [
+                { "icon": "smartphone", "title": "Cross-platform apps", "text": "One Flutter or React Native codebase for iOS and Android." },
+                { "icon": "code", "title": "Native iOS & Android", "text": "Swift and Kotlin when performance or device features demand it." },
+                { "icon": "database", "title": "App backends & APIs", "text": "Authentication, sync, payments and push notifications built in." },
+                { "icon": "eye", "title": "Product & UX design", "text": "Prototypes tested with real users before we write production code." },
+                { "icon": "check-circle", "title": "Testing & release", "text": "Automated tests, beta programs and store submission handled for you." },
+                { "icon": "refresh", "title": "Updates & growth", "text": "Analytics, crash reporting and regular releases after launch." }
+            ],
+            "deliverables": ["Clickable prototype and UI design", "iOS and Android apps from one plan", "Secure backend and admin panel", "Push notifications, analytics and crash reporting", "App Store and Google Play submission", "Post-launch support and release plan"],
+            "idealFor": ["Startups turning an idea into an MVP", "Businesses adding a mobile channel for customers", "Teams needing a field or staff app", "Products whose current app is slow or unstable"],
+            "processTitle": "From prototype to the app stores.",
+            "process": [
+                { "title": "Prototype", "text": "Key journeys designed and tested as a clickable prototype." },
+                { "title": "Build", "text": "Sprints with test builds on your phone every week." },
+                { "title": "Test", "text": "Automated and device testing across screen sizes." },
+                { "title": "Release", "text": "Store submission, launch support and analytics." }
+            ],
+            "tools": ["Flutter", "React Native", "Swift", "Kotlin", "Firebase", "Expo", "Laravel", "Node.js", "PostgreSQL", "Fastlane", "App Store Connect", "Google Play Console"],
+            "cta": { "title": "Have an app idea?", "lead": "Tell us about it. We will suggest the fastest path to a version your users can try." }
+        },
+        "ai-computer-vision": {
+            "seo": {
+                "title": "AI & Computer Vision Development · ZAIRON Systems",
+                "description": "Document AI, OCR, object detection and visual inspection systems that plug straight into your operations. Get a free use-case review.",
+                "serviceType": "Computer vision and AI development",
+                "schemaDescription": "Document AI, OCR, object detection, visual inspection and LLM assistants built and deployed for production."
+            },
+            "heading": "AI & Computer Vision that turns pixels into",
+            "highlight": "decisions.",
+            "lead": "We build vision and AI systems that detect, read, classify and act on images, video and documents, then plug them straight into your operations.",
+            "visual": "vision",
+            "preview": {
+                "boxes": [
+                    { "label": "package · 0.99", "left": "7%", "top": 70, "width": "31%", "height": 160 },
+                    { "label": "label · 0.96", "left": "44%", "top": 110, "width": "22%", "height": 120, "delay": 0.25 },
+                    { "label": "barcode · 0.98", "left": "72%", "top": 60, "width": "20%", "height": 190, "delay": 0.5 }
+                ],
+                "metrics": [
+                    { "label": "Objects", "value": "3 detected" },
+                    { "label": "Latency", "value": "38 ms" },
+                    { "label": "Status", "value": "Synced to ERP" }
+                ]
+            },
+            "orbit": ["OpenCV", "PyTorch", "YOLO", "OCR"],
+            "capabilitiesTitle": "Vision and AI capabilities, production-ready.",
+            "capabilitiesLead": "Not isolated model demos. Complete systems with data pipelines, APIs and monitoring.",
+            "capabilities": [
+                { "icon": "database", "title": "Document AI & OCR", "text": "Extract fields from invoices, IDs, forms and receipts with validation built in." },
+                { "icon": "eye", "title": "Object detection & tracking", "text": "Count, locate and follow items, vehicles or people in images and live video." },
+                { "icon": "check-circle", "title": "Visual inspection", "text": "Spot defects and anomalies on production lines with consistent accuracy." },
+                { "icon": "spark", "title": "Classification & recognition", "text": "Sort images, products and screens into the categories your business uses." },
+                { "icon": "code", "title": "LLM-powered assistants", "text": "Chat and agent experiences grounded in your own documents and data." },
+                { "icon": "cloud", "title": "Model deployment & MLOps", "text": "Serve, monitor and retrain models in the cloud or at the edge." }
+            ],
+            "deliverables": ["Use-case review and accuracy targets", "Labelled dataset and trained models", "Inference API or edge deployment", "Integration with your ERP, CRM or workflow", "Accuracy dashboard and drift alerts", "Retraining plan and documentation"],
+            "idealFor": ["Teams processing documents by hand", "Warehouses and factories needing visual checks", "Businesses sitting on image or video data", "Products adding AI assistants or smart search"],
+            "processTitle": "From raw input to automated action.",
+            "process": [
+                { "title": "Input", "text": "Cameras, scans, screens and files" },
+                { "title": "Detection", "text": "Models find and read what matters" },
+                { "title": "Decision", "text": "Business rules validate the result" },
+                { "title": "Integration", "text": "Results flow into your systems" }
+            ],
+            "tools": ["Python", "OpenCV", "PyTorch", "TensorFlow", "YOLO", "ONNX", "Tesseract", "OpenAI", "FastAPI", "Docker", "AWS SageMaker", "Azure AI"],
+            "cta": { "title": "Have images, video or documents to automate?", "lead": "Share a sample and we will show you what a vision system can do with it, free." }
+        },
+        "automation-engineering": {
+            "seo": {
+                "title": "Automation Engineering Services · ZAIRON Systems",
+                "description": "Workflow automation, RPA and browser bots that run repetitive, high-volume work reliably. Get a free automation review.",
+                "serviceType": "Business process automation",
+                "schemaDescription": "Workflow automation, RPA, browser bots, scheduled jobs and monitored automation pipelines."
+            },
+            "heading": "Automation that runs",
+            "highlight": "while you sleep.",
+            "lead": "We hand repetitive, high-volume work to reliable software: scheduled jobs, browser bots and workflow automation that run on time, every time.",
+            "orbit": ["Python", "Playwright", "n8n", "Cron"],
+            "capabilitiesTitle": "Repetitive work, handled by software.",
+            "capabilitiesLead": "If your team does it the same way every day, we can probably automate it.",
+            "capabilities": [
+                { "icon": "refresh", "title": "Workflow automation", "text": "Multi-step business processes connected end to end." },
+                { "icon": "globe", "title": "Browser & RPA bots", "text": "Bots that log in, fill forms and download reports like a person would." },
+                { "icon": "database", "title": "Data entry & reconciliation", "text": "Records moved, matched and validated between systems automatically." },
+                { "icon": "spark", "title": "Scheduled jobs", "text": "Reports, syncs and clean-ups that run on time without anyone remembering." },
+                { "icon": "check-circle", "title": "Monitoring & alerts", "text": "Every run logged, with instant alerts and automatic retries on failure." },
+                { "icon": "shield", "title": "Secure credentials", "text": "Secrets vaulted and access scoped, so bots never become a risk." }
+            ],
+            "deliverables": ["Process audit and automation roadmap", "Production bots or workflows, fully tested", "Run dashboard with logs and history", "Alerts by email, Slack or WhatsApp", "Secure credential storage", "Runbook and handover for your team"],
+            "idealFor": ["Operations teams buried in copy-paste work", "Businesses relying on daily manual reports", "Teams working across portals without APIs", "Companies scaling volume without adding headcount"],
+            "processTitle": "From manual process to hands-off.",
+            "process": [
+                { "title": "Map", "text": "We shadow the process and measure where time goes." },
+                { "title": "Automate", "text": "Bots and workflows built with error handling." },
+                { "title": "Verify", "text": "Runs tested against real cases and edge cases." },
+                { "title": "Operate", "text": "Monitored in production with alerts and retries." }
+            ],
+            "tools": ["Python", "Playwright", "Selenium", "Puppeteer", "n8n", "Celery", "Redis", "Docker", "Cron", "PostgreSQL", "AWS Lambda", "Slack API"],
+            "cta": { "title": "What would you stop doing by hand?", "lead": "Describe the task. We will estimate the hours saved and how we would automate it." }
+        },
+        "mobile-automation": {
+            "seo": {
+                "title": "Mobile Automation on Real Android Devices · ZAIRON Systems",
+                "description": "Multi-device Android automation with Appium and ADB: orchestrated workflows, live dashboards and visual verification.",
+                "serviceType": "Mobile device automation",
+                "schemaDescription": "Android device automation, multi-device orchestration, visual verification and reporting."
+            },
+            "heading": "Android automation across",
+            "highlight": "real devices.",
+            "lead": "We orchestrate workflows on fleets of real Android devices with Appium and ADB, with live status, screenshots and results you can see.",
+            "orbit": ["Appium", "ADB", "Android", "Device farm"],
+            "capabilitiesTitle": "Real devices, fully orchestrated.",
+            "capabilitiesLead": "From a handful of phones to device farms, controlled from one dashboard.",
+            "capabilities": [
+                { "icon": "phone-play", "title": "Multi-device orchestration", "text": "Run the same flow across many phones in parallel, safely." },
+                { "icon": "smartphone", "title": "App workflow automation", "text": "Taps, swipes, forms and checks scripted for any Android app." },
+                { "icon": "eye", "title": "Visual verification", "text": "Screenshots and screen recognition confirm every step worked." },
+                { "icon": "refresh", "title": "Scheduling & queues", "text": "Jobs queued, retried and balanced across available devices." },
+                { "icon": "database", "title": "Results & reporting", "text": "Logs, screenshots and outcomes stored and searchable per run." },
+                { "icon": "shield", "title": "Device health monitoring", "text": "Battery, connectivity and app state checked before each job." }
+            ],
+            "deliverables": ["Device farm setup and configuration", "Automated flows for your target apps", "Central dashboard with live device status", "Run history with screenshots and logs", "Alerts for failed runs and offline devices", "Documentation and operator training"],
+            "idealFor": ["Teams testing apps on many real devices", "Businesses running repeatable in-app workflows", "QA teams replacing manual device checks", "Operations scaling device-based tasks"],
+            "processTitle": "From one phone to a managed fleet.",
+            "process": [
+                { "title": "Assess", "text": "Apps, devices and flows reviewed for automation." },
+                { "title": "Script", "text": "Reliable flows built with waits, checks and recovery." },
+                { "title": "Orchestrate", "text": "Queues and parallel runs across the device fleet." },
+                { "title": "Monitor", "text": "Live dashboard, alerts and run reports." }
+            ],
+            "tools": ["Appium", "ADB", "UIAutomator2", "Python", "Node.js", "OpenCV", "Redis", "Docker", "WebSockets", "React", "PostgreSQL", "Grafana"],
+            "cta": { "title": "Running tasks on real phones?", "lead": "Tell us how many devices and what they do. We will design the orchestration." }
+        },
+        "api-integration": {
+            "seo": {
+                "title": "API & Platform Integration Services · ZAIRON Systems",
+                "description": "Payment gateways, CRMs, ERPs and partner APIs integrated with retries, logging and security. One reliable data flow.",
+                "serviceType": "API integration",
+                "schemaDescription": "Third-party integrations, payment gateways, custom APIs, webhooks and data synchronisation."
+            },
+            "heading": "Your tools, connected so data",
+            "highlight": "flows on its own.",
+            "lead": "We integrate payment gateways, CRMs, ERPs and partner APIs into one reliable system, with retries, logging and security built in.",
+            "orbit": ["REST", "Webhooks", "Stripe", "OAuth"],
+            "capabilitiesTitle": "Integrations that don't break quietly.",
+            "capabilitiesLead": "Every connection is monitored, retried and documented.",
+            "capabilities": [
+                { "icon": "plug", "title": "Third-party integrations", "text": "CRMs, ERPs, accounting and marketing tools connected properly." },
+                { "icon": "database", "title": "Payment gateways", "text": "Stripe, PayPal and local gateways with webhooks and reconciliation." },
+                { "icon": "code", "title": "Custom API development", "text": "Clean, versioned REST or GraphQL APIs for partners and apps." },
+                { "icon": "refresh", "title": "Data sync & webhooks", "text": "Two-way sync with queues, retries and conflict handling." },
+                { "icon": "shield", "title": "Auth & security", "text": "OAuth, API keys, signatures and rate limits done right." },
+                { "icon": "check-circle", "title": "Monitoring & logging", "text": "Every request traced, so failures are visible and fixable." }
+            ],
+            "deliverables": ["Integration map of your systems and data", "Production integrations with retries and logging", "API documentation (OpenAPI)", "Webhook handling and signature verification", "Error dashboard and alerts", "Runbook for adding future integrations"],
+            "idealFor": ["Teams re-typing data between tools", "Businesses adding online payments", "Products needing a partner or public API", "Companies with integrations that fail silently"],
+            "processTitle": "From scattered tools to one system.",
+            "process": [
+                { "title": "Map", "text": "Systems, data and ownership mapped end to end." },
+                { "title": "Design", "text": "Contracts, auth and error handling agreed up front." },
+                { "title": "Integrate", "text": "Connections built with queues and retries." },
+                { "title": "Monitor", "text": "Logs, alerts and dashboards in production." }
+            ],
+            "tools": ["REST", "GraphQL", "Webhooks", "OAuth 2.0", "Stripe", "PayPal", "Laravel", "Node.js", "RabbitMQ", "Redis", "Postman", "OpenAPI"],
+            "cta": { "title": "Tired of copy-pasting between systems?", "lead": "List the tools you use. We will show you how they could talk to each other." }
+        },
+        "data-engineering": {
+            "seo": {
+                "title": "Data Engineering & Extraction · ZAIRON Systems",
+                "description": "Reliable data pipelines, web and document data extraction, warehouses and dashboards. Data you can trust, on schedule.",
+                "serviceType": "Data engineering",
+                "schemaDescription": "ETL pipelines, web and document data extraction, data quality, warehousing and dashboards."
+            },
+            "heading": "Scattered data, shaped into",
+            "highlight": "pipelines you trust.",
+            "lead": "We collect, clean and validate data from websites, files and systems, then deliver it as reliable pipelines, warehouses and dashboards.",
+            "orbit": ["ETL", "Extraction", "SQL", "Dashboards"],
+            "capabilitiesTitle": "From raw sources to decisions.",
+            "capabilitiesLead": "Data you can rely on, delivered on schedule.",
+            "capabilities": [
+                { "icon": "database", "title": "Data pipelines (ETL/ELT)", "text": "Scheduled pipelines that move and transform data reliably." },
+                { "icon": "globe", "title": "Web data extraction", "text": "Structured data collected responsibly from public web sources." },
+                { "icon": "eye", "title": "Document data extraction", "text": "Fields pulled from PDFs, spreadsheets and scans into clean tables." },
+                { "icon": "check-circle", "title": "Validation & quality", "text": "Rules and checks that catch bad data before it spreads." },
+                { "icon": "cloud", "title": "Warehouses & lakes", "text": "Analytics-ready storage on PostgreSQL, BigQuery or Snowflake." },
+                { "icon": "spark", "title": "Dashboards & reporting", "text": "Live dashboards your team actually uses to decide." }
+            ],
+            "deliverables": ["Source audit and data model", "Automated, scheduled pipelines", "Data quality checks and alerts", "Warehouse or database setup", "Dashboards for key metrics", "Documentation of every data flow"],
+            "idealFor": ["Teams reporting from messy spreadsheets", "Businesses needing market or pricing data", "Companies merging data from many systems", "Leaders who want one source of truth"],
+            "processTitle": "From raw sources to reliable insight.",
+            "process": [
+                { "title": "Collect", "text": "Sources connected: APIs, files, databases and the web." },
+                { "title": "Clean", "text": "Data normalised, de-duplicated and validated." },
+                { "title": "Store", "text": "Loaded into a warehouse modelled for analysis." },
+                { "title": "Deliver", "text": "Dashboards, exports and APIs on schedule." }
+            ],
+            "tools": ["Python", "Pandas", "SQL", "Airflow", "dbt", "Scrapy", "Playwright", "PostgreSQL", "BigQuery", "Snowflake", "Metabase", "Power BI"],
+            "cta": { "title": "Drowning in data but short on answers?", "lead": "Tell us where your data lives. We will design a pipeline that makes it useful." }
+        },
+        "quality-engineering": {
+            "seo": {
+                "title": "Quality Engineering & Test Automation · ZAIRON Systems",
+                "description": "Automated testing for web, mobile and APIs, wired into CI so every release ships with confidence.",
+                "serviceType": "Software testing and QA",
+                "schemaDescription": "Test automation, cross-browser, mobile, API, performance and security testing."
+            },
+            "heading": "Quality engineering that catches bugs",
+            "highlight": "before customers do.",
+            "lead": "Automated testing across web, mobile and APIs, wired into your pipeline so every release ships with confidence.",
+            "orbit": ["Playwright", "Appium", "CI", "Load tests"],
+            "capabilitiesTitle": "Confidence in every release.",
+            "capabilitiesLead": "Testing strategy, automation and tooling, set up to run on every change.",
+            "capabilities": [
+                { "icon": "check-circle", "title": "Test automation", "text": "End-to-end, integration and unit tests that run on every commit." },
+                { "icon": "globe", "title": "Web & cross-browser testing", "text": "Critical journeys checked across browsers and screen sizes." },
+                { "icon": "smartphone", "title": "Mobile app testing", "text": "Real-device and emulator testing for iOS and Android." },
+                { "icon": "plug", "title": "API testing", "text": "Contract and regression tests for every endpoint." },
+                { "icon": "spark", "title": "Performance & load testing", "text": "Know your limits before launch day finds them for you." },
+                { "icon": "shield", "title": "Security testing", "text": "Automated scans and checks for common vulnerabilities." }
+            ],
+            "deliverables": ["QA strategy and risk-based test plan", "Automated test suites in your repository", "Tests running in your CI pipeline", "Performance and load test reports", "Bug reports with clear reproduction steps", "Quality dashboard and release checklist"],
+            "idealFor": ["Teams afraid to deploy on Fridays", "Products with frequent regressions", "Companies preparing for a big launch", "Teams with only manual testing today"],
+            "processTitle": "From manual checks to automated confidence.",
+            "process": [
+                { "title": "Assess", "text": "Current quality, risks and critical journeys reviewed." },
+                { "title": "Plan", "text": "Test strategy and coverage targets agreed." },
+                { "title": "Automate", "text": "Suites built and connected to your CI." },
+                { "title": "Report", "text": "Dashboards and release sign-off every sprint." }
+            ],
+            "tools": ["Playwright", "Cypress", "Selenium", "Appium", "Jest", "PHPUnit", "Pest", "Postman", "k6", "JMeter", "GitHub Actions", "OWASP ZAP"],
+            "cta": { "title": "Want releases without the anxiety?", "lead": "Tell us how you test today. We will propose a plan to automate what matters most." }
+        },
+        "devops-cloud": {
+            "seo": {
+                "title": "DevOps & Cloud Services · ZAIRON Systems",
+                "description": "CI/CD, containers, Kubernetes and infrastructure as code on AWS, Azure and Google Cloud. Deploy often, recover fast.",
+                "serviceType": "DevOps and cloud engineering",
+                "schemaDescription": "CI/CD pipelines, cloud architecture, infrastructure as code, containers, monitoring and cost optimisation."
+            },
+            "heading": "Cloud infrastructure that scales",
+            "highlight": "without drama.",
+            "lead": "CI/CD pipelines, containers and cloud infrastructure as code, so you deploy often, recover fast and pay only for what you use.",
+            "orbit": ["AWS", "Docker", "Kubernetes", "Terraform"],
+            "capabilitiesTitle": "Ship faster, sleep better.",
+            "capabilitiesLead": "Infrastructure and delivery pipelines engineered for reliability and cost.",
+            "capabilities": [
+                { "icon": "refresh", "title": "CI/CD pipelines", "text": "Every commit built, tested and deployed automatically." },
+                { "icon": "cloud", "title": "Cloud architecture", "text": "AWS, Azure and Google Cloud designed for scale and resilience." },
+                { "icon": "code", "title": "Infrastructure as code", "text": "Terraform-managed environments you can reproduce in minutes." },
+                { "icon": "database", "title": "Containers & Kubernetes", "text": "Dockerised apps orchestrated for zero-downtime releases." },
+                { "icon": "check-circle", "title": "Monitoring & observability", "text": "Metrics, logs and alerts that tell you before users do." },
+                { "icon": "spark", "title": "Cost optimisation", "text": "Right-sized resources and clear reports on where money goes." }
+            ],
+            "deliverables": ["Cloud architecture and cost review", "Automated CI/CD pipeline", "Infrastructure as code for every environment", "Zero-downtime deployment setup", "Monitoring, logging and alerting", "Backup, disaster recovery and runbooks"],
+            "idealFor": ["Teams deploying manually or rarely", "Startups preparing to scale", "Companies with rising cloud bills", "Businesses needing reliable uptime"],
+            "processTitle": "From manual deploys to push-button releases.",
+            "process": [
+                { "title": "Audit", "text": "Current setup, costs and risks reviewed." },
+                { "title": "Design", "text": "Target architecture and migration plan agreed." },
+                { "title": "Automate", "text": "Pipelines and infrastructure as code built." },
+                { "title": "Operate", "text": "Monitoring, runbooks and cost reports." }
+            ],
+            "tools": ["AWS", "Azure", "Google Cloud", "Docker", "Kubernetes", "Terraform", "GitHub Actions", "GitLab CI", "Nginx", "Prometheus", "Grafana", "Cloudflare"],
+            "cta": { "title": "Ready to deploy with confidence?", "lead": "Tell us how you ship today. We will map the path to fast, safe releases." }
+        },
+        "cyber-security": {
+            "seo": {
+                "title": "Cyber Security Services · ZAIRON Systems",
+                "description": "Security audits, penetration testing, hardening and monitoring for web apps, APIs and cloud infrastructure.",
+                "serviceType": "Cyber security",
+                "schemaDescription": "Security audits, penetration testing, secure code review, cloud hardening, monitoring and compliance readiness."
+            },
+            "heading": "Security that keeps your systems and",
+            "highlight": "data safe.",
+            "lead": "Security audits, penetration testing, hardening and monitoring, delivered by engineers who build software and know where it breaks.",
+            "orbit": ["OWASP", "Pentest", "SIEM", "Zero trust"],
+            "capabilitiesTitle": "Protection across your whole stack.",
+            "capabilitiesLead": "From your code to your cloud, we find weaknesses and fix them.",
+            "capabilities": [
+                { "icon": "shield", "title": "Security audits", "text": "Code, configuration and cloud reviewed against best practice." },
+                { "icon": "eye", "title": "Penetration testing", "text": "Authorised, controlled testing that finds real attack paths." },
+                { "icon": "code", "title": "Secure code review", "text": "Vulnerabilities fixed at the source, with guidance for your team." },
+                { "icon": "cloud", "title": "Cloud & server hardening", "text": "Least-privilege access, patched systems and secure defaults." },
+                { "icon": "check-circle", "title": "Monitoring & response", "text": "Logs and alerts that surface suspicious activity quickly." },
+                { "icon": "database", "title": "Compliance readiness", "text": "Controls and evidence for standards like ISO 27001 and GDPR." }
+            ],
+            "deliverables": ["Security assessment with risk ratings", "Penetration test report and retest", "Prioritised remediation plan", "Hardened configurations for servers and cloud", "Monitoring and alerting setup", "Security guidelines for your developers"],
+            "idealFor": ["Businesses handling customer or payment data", "Teams preparing for an audit or certification", "Companies recovering from a security incident", "Products launching to enterprise customers"],
+            "processTitle": "From unknown risks to a hardened system.",
+            "process": [
+                { "title": "Scope", "text": "Assets, risks and rules of engagement agreed." },
+                { "title": "Assess", "text": "Audits and authorised testing performed." },
+                { "title": "Remediate", "text": "Fixes prioritised and applied with your team." },
+                { "title": "Monitor", "text": "Ongoing monitoring and periodic retests." }
+            ],
+            "tools": ["OWASP ZAP", "Burp Suite", "Nmap", "Semgrep", "Trivy", "SonarQube", "Wazuh", "Snyk", "Vault", "Cloudflare", "AWS GuardDuty", "Let's Encrypt"],
+            "cta": { "title": "How secure is your system, really?", "lead": "Book an assessment. We will show you the risks that matter and how to fix them." }
+        }
+    }
+}

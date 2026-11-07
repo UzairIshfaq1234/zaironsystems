@@ -1,0 +1,18 @@
+{
+    "models": [
+        { "title": "Fixed-scope project", "text": "Best for well-defined products and MVPs.", "points": ["Fixed price and timeline", "Weekly demos", "Full code and IP ownership"] },
+        { "title": "Dedicated team", "text": "Best for growing products with a long roadmap.", "points": ["Senior engineers, PM and QA", "Scale the team up or down", "Your tools, your rituals"], "featured": true, "badge": "Most popular" },
+        { "title": "Support & retainer", "text": "Best for products already in production.", "points": ["Monitoring and maintenance", "Security updates", "Priority response times"] }
+    ],
+    "plans": [
+        { "id": "discovery", "title": "Discovery sprint", "duration": "1–2 weeks", "text": "Validate the idea and leave with a clear plan and a fixed, itemised quote.", "points": ["Workshops with a senior engineer", "Scope, architecture and timeline", "Fixed quote you can take anywhere"] },
+        { "id": "build", "title": "Build & launch", "duration": "Typically 6–12 weeks", "badge": "Most popular", "featured": true, "text": "We design, build and launch the complete solution with you.", "points": ["Dedicated senior team", "Weekly demos and progress reports", "Launch, handover and 30 days of support"] },
+        { "id": "partner", "title": "Ongoing partnership", "duration": "Monthly", "text": "Continuous improvement, support and new features after launch.", "points": ["Monitoring and maintenance", "Priority response times", "Quarterly roadmap planning"] }
+    ],
+    "industries": ["Fintech", "E-commerce & Retail", "Healthcare", "Logistics", "Real Estate", "Education", "SaaS", "Manufacturing", "Travel & Visa Services", "Media"],
+    "nextSteps": [
+        { "title": "We reply within a day", "text": "A senior engineer reviews your message and replies with questions or a call slot." },
+        { "title": "Free discovery call", "text": "30 minutes to understand your goals, users, constraints and timeline." },
+        { "title": "Proposal & quote", "text": "A clear plan with scope, milestones and a fixed, itemised price." }
+    ]
+}

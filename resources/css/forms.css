@@ -1,0 +1,52 @@
+/* ---------- Forms ---------- */
+.form { padding: 40px; border-radius: var(--r-xl); display: flex; flex-direction: column; gap: 22px; box-shadow: var(--shadow-card); }
+.form form { display: flex; flex-direction: column; gap: 22px; }
+.form .two { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 16px; }
+.field { display: flex; flex-direction: column; gap: 8px; }
+.field label, .field .label { font-size: 0.875rem; color: var(--text-mid); }
+.field .req { color: var(--text-accent); }
+.field input, .field textarea { width: 100%; padding: 16px 18px; border-radius: 14px; background: var(--night); border: 1px solid var(--glass-stroke); color: var(--text-high); transition: border-color 0.2s, box-shadow 0.2s; }
+.field textarea { min-height: 140px; resize: vertical; }
+.field input::placeholder, .field textarea::placeholder, .inline-form input::placeholder { color: var(--text-low); }
+.field input:focus, .field textarea:focus { outline: 0; border-color: var(--maroon-glow); box-shadow: 0 0 0 4px rgba(179, 20, 44, 0.25); }
+.field.error input, .field.error textarea { border-color: var(--danger); }
+.field .err { font-size: 0.8125rem; color: var(--text-accent); }
+.field .hint { font-size: 0.8125rem; color: var(--text-low); }
+
+/* Upload: input stays focusable for keyboard users, label carries the visuals. */
+.upload { position: relative; display: flex; align-items: center; gap: 12px; padding: 14px 18px; border-radius: 14px; border: 1px dashed var(--glass-stroke-strong); cursor: pointer; font-size: 0.875rem; color: var(--text-mid); transition: border-color 0.2s, background 0.2s; }
+.upload:hover { border-color: var(--text-accent); }
+.upload:focus-within { outline: 2px solid var(--maroon-glow); outline-offset: 3px; }
+.upload svg { width: 18px; height: 18px; color: var(--text-accent); flex: none; }
+.upload input { position: absolute; width: 1px; height: 1px; opacity: 0; pointer-events: none; }
+.upload .file-name { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.upload .clear { margin-left: auto; color: var(--text-low); cursor: pointer; padding: 4px; border-radius: 6px; }
+.upload .clear:hover { color: var(--text-high); }
+.field.error .upload { border-color: var(--danger); }
+
+.consent { display: flex; align-items: center; gap: 12px; font-size: 0.875rem; cursor: pointer; }
+.consent input { flex: none; width: 20px; height: 20px; accent-color: var(--maroon); }
+.consent a { color: var(--text-accent); text-decoration: underline; text-underline-offset: 3px; }
+
+/* Honeypot: invisible to people, tempting to bots. */
+.hp { position: absolute !important; left: -10000px !important; width: 1px; height: 1px; overflow: hidden; }
+
+.form-alert { padding: 14px 18px; border-radius: 14px; font-size: 0.875rem; background: rgba(217, 71, 90, 0.12); border: 1px solid rgba(217, 71, 90, 0.4); color: var(--text-high); }
+.form-success { text-align: center; padding: 40px 0; display: flex; flex-direction: column; align-items: center; gap: 16px; }
+.form-success:focus { outline: 0; }
+
+/* Inline (newsletter) form */
+.inline-form { display: flex; align-items: center; gap: 8px; padding: 6px 6px 6px 22px; border-radius: var(--r-pill); background: var(--night); border: 1px solid var(--glass-stroke); width: 100%; transition: border-color 0.2s; }
+.inline-form:focus-within { border-color: var(--maroon-glow); }
+.inline-form.error { border-color: var(--danger); }
+.inline-form input { flex: 1; min-width: 0; background: none; border: 0; outline: 0; color: var(--text-high); }
+.inline-msg { margin-top: 10px; font-size: 0.875rem; }
+.inline-msg.ok { color: var(--text-accent); }
+.inline-msg.bad { color: var(--text-accent); }
+
+@media (max-width: 767px) {
+    .form { padding: 24px; }
+    .form .two { grid-template-columns: minmax(0, 1fr); }
+    .inline-form { padding-left: 16px; }
+    .inline-form .btn { padding: 14px 18px; }
+}

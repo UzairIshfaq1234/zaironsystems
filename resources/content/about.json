@@ -1,0 +1,14 @@
+{
+    "story": [
+        "ZAIRON Systems grows from the name Uzair, meaning \"the helper.\" It was founded by Muhammad Uzair Ishfaq and Khadija Uzair with a simple belief: great software should make a business stronger, not more complicated.",
+        "Our mark is a Z built from two halves that meet at a single node. It stands for two founders, and for the moment an idea becomes a working system. That is the moment we work for on every project."
+    ],
+    "mission": "Turn our clients' ideas into dependable software, intelligent systems and secure infrastructure.",
+    "vision": "Be the engineering partner growing businesses trust from first idea to full scale.",
+    "values": [
+        { "icon": "code", "title": "Craft", "text": "We build it right, not just fast. Clean architecture, tested code, systems that last." },
+        { "icon": "shield", "title": "Trust", "text": "Secure by default, honest always. Your data and your deadlines are safe with us." },
+        { "icon": "spark", "title": "Clarity", "text": "Plain language, visible progress. You always know where your project stands." },
+        { "icon": "plug", "title": "Partnership", "text": "Your business goals are the brief. We stay with you after launch." }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "process": [
+        { "title": "Discover", "text": "We map your goals, users and constraints, then agree on scope and a fixed plan." },
+        { "title": "Design", "text": "UX flows, UI and architecture designed together and validated before we build." },
+        { "title": "Build", "text": "Agile sprints with weekly demos, clean code and automated tests from day one." },
+        { "title": "Launch", "text": "Secure deployment, monitoring and a smooth handover to your team." },
+        { "title": "Scale", "text": "Ongoing support, optimisation and new features as your business grows." }
+    ],
+    "why": [
+        "Senior engineers on every project",
+        "Security built in, not bolted on",
+        "Fixed scope and transparent pricing",
+        "Weekly demos and direct communication"
+    ],
+    "stats": [
+        { "value": 100, "suffix": "+", "label": "Projects delivered" },
+        { "value": 100, "suffix": "%", "label": "Client satisfaction" },
+        { "value": 5, "suffix": "", "label": "Countries served" },
+        { "value": 50, "suffix": "+", "label": "Engineers & specialists" }
+    ],
+    "tech": [
+        "Laravel", "React", "Next.js", "Node.js", "TypeScript", "Python", "FastAPI", "Django", "Flutter", "React Native",
+        "Kotlin", "Swift", "PostgreSQL", "MySQL", "MongoDB", "Redis", "Docker", "Kubernetes", "AWS", "Azure",
+        "Google Cloud", "Terraform", "OpenCV", "PyTorch", "TensorFlow", "OpenAI", "Appium", "Playwright", "Selenium", "GitHub Actions"
+    ]
+}
